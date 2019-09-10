@@ -6,7 +6,7 @@ import sys
 import ntp_pool_score
 
 
-parser = argparse.ArgumentParser(prog="poolscore")
+parser = argparse.ArgumentParser(prog="ntp_pool_score")
 parser.add_argument("IPAddress", help="An IPv4 or IPv6 address")
 arguments = parser.parse_args()
 
