@@ -28,7 +28,6 @@ TESTS_REQUIRE = ["nose"]
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-
 try:
     with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
         long_description = '\n' + f.read()
